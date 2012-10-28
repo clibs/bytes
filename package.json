@@ -1,0 +1,9 @@
+{
+  "name": "bytes",
+  "version": "0.0.1",
+  "repo": "visionmedia/bytes.c",
+  "description": "Byte string and number conversion utilities",
+  "keywords": ["bytes", "string", "size"],
+  "license": "MIT",
+  "src": ["bytes.c", "bytes.h"]
+}
