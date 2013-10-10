@@ -1,5 +1,15 @@
 
-# bytes.c
+# bytes
+
+  Convert bytelength to a human-readable string and vice versa.
+
+## Installation
+
+  Install with [clib](https://github.com/clibs/clib):
+
+```
+$ clib install clibs/file
+```
 
 ```c
 long long
@@ -9,4 +19,4 @@ char *
 bytes_to_string(long long bytes);
 ```
 
-For usage view the [tests](https://github.com/visionmedia/bytes.c/blob/master/bytes.c#L52)
+For usage view the [tests](https://github.com/clibs/bytes/blob/master/bytes.c#L52)

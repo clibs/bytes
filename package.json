@@ -1,7 +1,7 @@
 {
   "name": "bytes",
   "version": "0.0.1",
-  "repo": "visionmedia/bytes.c",
+  "repo": "clibs/bytes",
   "description": "Byte string and number conversion utilities",
   "keywords": ["bytes", "string", "size"],
   "license": "MIT",
