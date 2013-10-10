@@ -1,7 +1,7 @@
 
 # bytes
 
-  Convert bytelength to a human-readable string and vice versa.
+  Convert bytelength strings such as "5kb" to a `long long` and vice versa.
 
 ## Installation
 
