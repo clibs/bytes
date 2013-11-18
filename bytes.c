@@ -37,17 +37,13 @@ string_to_bytes(const char *str) {
 
 char *
 bytes_to_string(long long bytes) {
-  char *str = malloc(BYTES_MAX);
-  if (!str) return NULL;
   long div = 1;
-  char *fmt;
-
-  if (bytes < KB) fmt = "%lldb";
+  char *str, *fmt;
+  if (bytes < KB) { fmt = "%lldb"; }
   else if (bytes < MB) { fmt = "%lldkb"; div = KB; }
   else if (bytes < GB) { fmt = "%lldmb"; div = MB; }
   else { fmt = "%lldgb"; div = GB; }
-  snprintf(str, BYTES_MAX, fmt, bytes / div);
-
+  asprintf(&str, fmt, bytes / div);
   return str;
 }
 

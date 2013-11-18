@@ -8,12 +8,6 @@
 #ifndef BYTES
 #define BYTES
 
-// max buffer length
-
-#ifndef BYTES_MAX
-#define BYTES_MAX 256
-#endif
-
 // prototypes
 
 long long
