@@ -22,7 +22,6 @@
 
 long long
 string_to_bytes(const char *str) {
-  size_t len = strlen(str);
   long long val = strtoll(str, NULL, 10);
   if (!val) return -1;
   if (strstr(str, "kb")) return val * KB;
