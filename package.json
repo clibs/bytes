@@ -1,6 +1,6 @@
 {
   "name": "bytes",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repo": "clibs/bytes",
   "description": "Byte string and number conversion utilities",
   "keywords": ["bytes", "string", "size"],
