@@ -11,6 +11,8 @@
 $ clib install clibs/file
 ```
 
+## API
+
 ```c
 long long
 string_to_bytes(const char *str);
