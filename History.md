@@ -1,4 +1,10 @@
 
+0.0.4 / 2014-05-09
+==================
+
+ * Separate package and tests and fix leak in tests
+ * Add travis
+
 0.0.3 / 2014-05-06
 ==================
 
