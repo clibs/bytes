@@ -21,4 +21,4 @@ char *
 bytes_to_string(long long bytes);
 ```
 
-For usage view the [tests](https://github.com/clibs/bytes/blob/master/bytes.c#L52)
+For usage view the [tests](https://github.com/clibs/bytes/blob/master/test.c#L52)
